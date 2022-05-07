@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework(18)Calculator(JAVASCRIPT)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+     <form name="calculator" id="calculator">
+           <input type="text" name="output" readonly="readonly"/>
+            <button type="reset">C</button> 
+            <button type="button" onclick="clearEntry()">CE</button>
+            <button type="button" onclick="percentageCalculator()">%</button>
+
+            <button type="button" onclick="getValue('sin')">sin</button>
+            <button type="button" onclick="getValue('cos')">cos</button>
+            <button type="button" onclick="getValue('tan')">tan</button>
+            <button type="button" onclick="getValue('^')">^</button>
+            <button type="button" onclick="getValue('*')">x</button>
+            <button type="button" onclick="getValue('1')">1</button>
+            <button type="button" onclick="getValue('2')">2</button>
+            <button type="button" onclick="getValue('3')">3</button>
+            <button type="button" onclick="getValue('/')">/</button>
+            <button type="button" onclick="getValue('4')">4</button>
+            <button type="button" onclick="getValue('5')">5</button>
+            <button type="button" onclick="getValue('6')">6</button>
+            <button type="button" onclick="getValue('+')">+</button>
+            <button type="button" onclick="getValue('7')">7</button>
+            <button type="button" onclick="getValue('8')">8</button>
+            <button type="button" onclick="getValue('9')">9</button>
+            <button type="button" onclick="getValue('-')">-</button>
+            <button type="button" onclick="getValue('0')">0</button>
+            <button type="button" onclick="getValue('00')">00</button>
+            <button type="button" onclick="getValue('.')">.</button>
+            <button type="button" onclick="calculation()" id="result">=</button>
+     </form>   
+
+      <script src="js/app.js"></script>
+</body>
+</html>
